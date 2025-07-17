@@ -312,6 +312,32 @@ footer {
 
 
 @media (max-width: 768px) {
+
+  .hero {
+    height: 100vh;
+    padding: 1em;
+    background-position: center;
+  }
+
+  .hero-content {
+    padding: 1em;
+    text-align: center;
+  }
+
+  .hero h2 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    margin-top: 1em;
+  }
+
+  .btn {
+    padding: 0.6em 1.2em;
+    font-size: 14px;
+    margin-top: 1.5em;
+  }
   .about-content {
     flex-direction: column;
     text-align: center;
