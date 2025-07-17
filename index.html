@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinity Hair Salon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Magic Hands Studio</h1>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#book-now">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <h2>Where Beauty Begins</h2>
+    <p>Professional haircuts, color & style</p>
+    <a href="#" class="btn">See Services</a>
+  </section>
+
+
+
+
+
+
+  <section id="about" class="about">
+  <div class="about-content">
+    <div class="text">
+      <h2>About Our Salon</h2>
+      <p>
+        At Luxe Hair Studio, we believe beauty starts with confidence. 
+        Our team of professional stylists is dedicated to giving you 
+        a personalized and elegant experience from the moment you step in.
+      </p>
+    </div>
+    <div class="image">
+      <img src="images/logo.jpg" alt="Our Salon">
+    </div>
+  </div>
+</section>
+
+
+  <section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="service-cards">
+    <div class="card">
+      <h3>Haircut & Styling</h3>
+      <p>Classic, trendy, or tailored just for you — let your hair speak volumes.</p>
+    </div>
+    <div class="card">
+      <h3>Coloring</h3>
+      <p>Balayage, highlights, or bold transformations with premium color care.</p>
+    </div>
+    <div class="card">
+      <h3>Treatments</h3>
+      <p>Restore shine and strength with nourishing hair treatments.</p>
+    </div>
+    <!-- Add more cards as needed -->
+  </div>
+</section>
+
+
+  <section id="gallery" class="gallery">
+  <h2>Our Gallery</h2>
+  <div class="gallery-grid">
+    <img src="images/hairResult.jpg" alt="Salon interior 1" />
+    <img src="images/hairResult2.jpg" alt="Hair styling 1" />
+    <img src="images/hairRsult3.jpg" alt="Hair coloring 1" />
+    <img src="images/hairRsult3.jpg" alt="Hair coloring 1" />
+    <img src="images/hairRsult3.jpg" alt="Hair coloring 1" />
+    <img src="images/hairRsult3.jpg" alt="Hair coloring 1" />
+    
+    <!-- Add more images -->
+  </div>
+</section>
+
+<section id="book-now" class="book-now">
+  <h2>Book Your Appointment</h2>
+  <form action="#" method="POST" class="booking-form">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="Your email" required />
+
+    <label for="service">Select Service</label>
+    <select id="service" name="service" required>
+      <option value="">-- Choose a service --</option>
+      <option value="haircut">Haircut & Styling</option>
+      <option value="coloring">Coloring</option>
+      <option value="treatment">Treatment</option>
+    </select>
+
+    <label for="date">Preferred Date</label>
+    <input type="date" id="date" name="date" required />
+
+    <button type="submit" class="btn">Book Now</button>
+  </form>
+</section>
+
+
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 070 123 456</p>
+    <p>📍 Near your house, Skopje</p>
+    <p>📷 <a href="#">@infinity.salon</a></p>
+    <p>🕒 Mon–Sat: 09:00–20:00</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Magic Hands Studio</p>
+  </footer>
+
+</body>
+</html>
