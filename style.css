@@ -281,7 +281,9 @@ footer {
     padding: 10px;
   }
 
-  nav
+  header h1{
+    font-size: 1.3rem;
+  }
 
   .nav a {
     padding: 10px 0;
