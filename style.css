@@ -51,7 +51,7 @@ header h1 {
   font-size: 1.5rem;
 }
 
-nav ul {
+nav li {
   list-style: none;
   display: flex;
   gap: 4rem;
@@ -280,9 +280,12 @@ footer {
     padding: 10px;
   }
 
+  nav
+
   .nav a {
     padding: 10px 0;
     text-align: right;
+    
   }
   .nav.active {
     display: flex;
