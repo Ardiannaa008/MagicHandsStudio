@@ -13,6 +13,22 @@ body {
   color: #333;
 }
 
+.burger {
+  font-size: 26px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none; 
+  color: #ccc;/* hidden by default */
+}
+
+/* nav links */
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+
 header {
   position: fixed;
   top: 0;
@@ -249,6 +265,30 @@ footer {
 
 
 @media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #000;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .nav a {
+    padding: 10px 0;
+    text-align: right;
+  }
+  .nav.active {
+    display: flex;
+  
+  }
+
 
   .hero {
     height: 100vh;
